@@ -1,3 +1,5 @@
+permissions:
+  contents: write
 on:
   watch:
     types: started
