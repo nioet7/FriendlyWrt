@@ -83,3 +83,6 @@ sed -i -e 's/CONFIG_LUCI_LANG_tr=y/# /g' configs/rockchip/02-luci_lang
 sed -i -e 's/CONFIG_LUCI_LANG_uk=y/# /g' configs/rockchip/02-luci_lang
 sed -i -e 's/CONFIG_LUCI_LANG_vi=y/# /g' configs/rockchip/02-luci_lang
 sed -i -e 's/CONFIG_LUCI_LANG_zh_Hant=y/# /g' configs/rockchip/02-luci_lang
+sed -i -e 's/CONFIG_PACKAGE_luci-app-cpufreq=y/# CONFIG_PACKAGE_luci-app-cpufreq is not set/g' configs/rockchip/04-utils
+sed -i -e 's/CONFIG_PACKAGE_netdata=y/# CONFIG_PACKAGE_netdata is not set/g' configs/rockchip/04-utils
+sed -i -e 's/CONFIG_PACKAGE_luci-app-netdata=y/# CONFIG_PACKAGE_aria2 is not set/g' configs/rockchip/04-utils
