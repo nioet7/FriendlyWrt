@@ -58,7 +58,6 @@ sed -i -e 's/CONFIG_PACKAGE_collectd-mod-uptime=y/# CONFIG_PACKAGE_collectd-mod-
 sed -i -e 's/CONFIG_PACKAGE_collectd-mod-wireless=y/# CONFIG_PACKAGE_collectd-mod-wireless is not set/g' configs/rockchip/01-nanopi
 sed -i -e 's/CONFIG_PACKAGE_vsftpd=y/# CONFIG_PACKAGE_vsftpd is not set/g' configs/rockchip/01-nanopi
 sed -i -e 's/CONFIG_PACKAGE_wsdd2=y/# CONFIG_PACKAGE_wsdd2 is not set/g' configs/rockchip/01-nanopi
-sed -i -e 's/CONFIG_PACKAGE_wpad-mini=y/# CONFIG_PACKAGE_wpad-mini is not set/g' configs/rockchip/01-nanopi
 sed -i -e 's/CONFIG_PACKAGE_blockd=y/# CONFIG_PACKAGE_blockd is not set/g' configs/rockchip/01-nanopi
 sed -i -e 's/CONFIG_LUCI_LANG_bg=y/# /g' configs/rockchip/02-luci_lang
 sed -i -e 's/CONFIG_LUCI_LANG_ca=y/# /g' configs/rockchip/02-luci_lang
